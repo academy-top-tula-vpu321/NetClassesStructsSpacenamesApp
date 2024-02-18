@@ -1,15 +1,25 @@
 ﻿using NetClassesStructsSpacenamesApp;
+using NetClassesStructsSpacenamesApp.MyNamepace;
+
+using NetMyLibrary;
+
+NetMyLibrary.Array array = new NetMyLibrary.Array(10);
+array.Init();
+array.Print();
+
 
 Employee employee = new Employee();
 employee.name = "Bobby";
 employee.age = 25;
 Employee bob = employee;
-
 employee.Show();
 
 bob.name = "Noname";
 employee.Show();
 
+Int32 number;
+
+MyClass obj = new();
 
 
 Employee joe = new Employee() { name = "Joe", age = 31 };

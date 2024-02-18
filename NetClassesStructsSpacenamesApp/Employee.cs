@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace NetClassesStructsSpacenamesApp
 {
+    namespace MyNamepace
+    { 
+        class MyClass
+        {
+
+        }
+    }
+
+
+
     class Employee
     {
         public string name;
